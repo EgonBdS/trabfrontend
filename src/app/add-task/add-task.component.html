@@ -1,0 +1,6 @@
+<h2>Adicionar Tarefa</h2>
+<form (ngSubmit)="addTask()">
+  <input [(ngModel)]="title" name="title" required placeholder="Digite a tarefa">
+  <button type="submit">Adicionar</button>
+</form>
+<a routerLink="/list">Voltar</a>
